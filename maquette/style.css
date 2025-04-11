@@ -1,0 +1,444 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+}
+
+@font-face {
+	font-family: 'regular';
+    src: url('font/VT323-Regular.ttf') format('truetype');
+}
+.banner {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 110px;
+    background-color: #eac404;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 00;
+    font-weight: 300;
+
+}
+
+.banner-content {
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation  {
+    display: flex;
+    align-items: right;
+    margin: 0 20px;
+    gap: 150px;
+    font-weight: bold; 
+    color: #000000;
+    font-size: 1.5em;
+    letter-spacing: 0.07em;
+    position: relative;
+    white-space: nowrap;
+    left: 300px;
+}
+
+.collection:hover{
+    color: rgb(255, 255, 255);
+    cursor: grab;
+    transition: color 0.5s ease;;
+}
+
+.propos:hover{
+    color: rgb(255, 255, 255);
+    cursor: grab;
+    transition: color 0.5s ease;
+}
+
+.contact:hover{
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease;
+    cursor: grab;
+  
+}
+
+.options{
+    position: relative;
+    left: -1100px;
+    font-family: 'regular', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 40Px;
+    top:-3px
+}
+
+.dj{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.button2{
+    position: relative;
+    left: 600px;
+    top: 530px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(168, 34, 34);
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: none;
+    height: 60px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-size: 20px;
+}
+
+.button2:hover{
+    color: rgb(0, 0, 0);
+    cursor: grab;
+    background-color: rgb(255, 255, 255);
+}
+
+.parfois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161925;
+    z-index: 2;
+    font-size: 35px;
+    position: relative;
+    top: 624px;
+    width: 100%;
+}
+
+.Explorer{
+    display: flex; 
+    justify-content: center;
+    font-size: 43px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    top: 325px;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collections{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    top: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    margin-left: 90px;
+    letter-spacing: 3px;
+}
+
+
+.container{
+    position: relative;
+    top: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: 0.3s with ease;
+
+}
+
+
+.container img:hover{
+    filter: brightness(50%); 
+    cursor: grab;
+}
+
+.audio{
+    position: relative;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+
+.container2{
+    position: absolute;
+    display: flex;
+    background-color: rgb(43, 86, 137);
+    height: 405px;
+    width: 86.1%;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    top: 1550px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.musica1{
+    position: relative;
+    margin-top: auto;
+    right: 100px;
+}
+
+audio {
+    width: 700px; 
+    height: 50px; 
+}
+
+.audio11{
+    font-size: 30px;
+    color: aliceblue;
+    position:  absolute;
+    left: 500px;
+
+}
+
+.container3{
+    position: absolute;
+    display: flex;
+    background-color: rgb(43, 86, 137);
+    height: 405px;
+    width: 86.1%;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    top: 2000px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.container4{
+    position: absolute;
+    display: flex;
+    background-color: rgb(43, 86, 137);
+    height: 405px;
+    width: 86.1%;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    top: 2450px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.videos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 1950px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    margin-left: 90px;
+    letter-spacing: 3px;
+}
+
+.container5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 1950px;
+}
+
+.container5:hover{
+    cursor: grab;
+}
+
+.artistes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 1950px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    margin-left: 90px;
+    letter-spacing: 3px; 
+}
+
+.container6{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 1950px;
+}
+
+.container6 img{
+    margin-top: 25px;
+}
+
+.container6 img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: grab;
+}
+
+.propos2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 1950px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    margin-left: 90px;
+    letter-spacing: 3px;
+}
+
+.propos3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 1950px;
+}
+
+.ame{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 1950px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.eternelle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 1950px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.container7{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 1950px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 180px;
+    margin-right: 180px;
+    letter-spacing: 3px;
+    background-color: rgb(43, 86, 137);
+    color: white;
+}
+
+.contact6{
+    color: white;
+    font-size: 30px;
+}
+
+.contribuer{
+    font-size: 15px;
+}
+
+.email{
+    position: relative;
+    left: -370px;
+    margin-top: 30px;
+    align-items: right;
+    justify-content: right;
+    width: 100%;
+
+}
+
+.txt1{
+    background-color: white;
+    width: 70%;
+    height: 60px;
+}
+
+.txt2{
+    background-color: white;
+    width: 70%;
+    height: 200px;
+}
+
+.messages{
+    position: relative;
+    left: -360px;
+}
+
+.optionnel1{
+    position: relative;
+    font-size: 13px;
+    left: -240px;
+}
+
+.fichierr3{
+    position: relative;
+    color: black;
+    font-size:13px;
+    left: -310px;
+    background-color: rgb(176, 173, 173);
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.fichierr3:hover{
+    background-color: rgb(116, 122, 118);
+    cursor: grab;
+}
+
+.send{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    background-color: rgb(166, 4, 4);
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.5s ease;
+}
+
+.send:hover{
+    background-color: rgb(92, 3, 3);
+    cursor: grab;
+}
+
+footer {
+    background-color: #eac404;   
+    text-align: center;         
+    padding-top: 1px ; 
+    padding-bottom: 1px;              
+    width: 100%;                 
+    position: relative;           
+    top: 2100px;               
+    font-size: 65px;
+    font-family: 'regular', sans-serif;
+    font-weight: bold;
+  }
